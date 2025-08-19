@@ -1,23 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
+  font-family: Arial, sans-serif; /* Fuente general */
+  padding: 20px; /* Espaciado interno */
 }
 
 h1 {
-  text-align: center;
+  text-align: center; /* Centra el título */
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
+  display: grid; /* Activa CSS Grid */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Columnas adaptables */
+  gap: 20px; /* Espacio entre tarjetas */
 }
 
 .card {
-  background: #f9f9f9;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9; /* Fondo claro */
+  padding: 15px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
 .card h3 {
@@ -27,18 +30,18 @@ h1 {
 
 .card p {
   font-size: 14px;
-  color: #555;
+  color: #555; /* Texto gris */
 }
 
 .card button {
-  background: #007bff;
-  color: white;
-  border: none;
+  background: #007bff; /* Azul */
+  color: white; /* Texto blanco */
+  border: none; /* Sin borde */
   padding: 8px 12px;
-  cursor: pointer;
+  cursor: pointer; /* Manito al pasar el mouse */
   border-radius: 5px;
 }
 
 .card button:hover {
-  background: #0056b3;
+  background: #0056b3; /* Azul más oscuro al pasar el mouse */
 }
